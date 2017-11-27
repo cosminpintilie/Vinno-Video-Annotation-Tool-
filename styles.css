@@ -1,0 +1,138 @@
+body {
+    background: #CCFFFF;
+    color: #6600CC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+}
+
+nav a:active, nav a:visited, nav a:link {
+    color: #330033;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:last-child {
+    background: #9966CC;
+    color: #330033;
+}
+
+form div.input-group{
+    margin:15px 0;
+}
+
+form input[type="text"]{
+    border: 1px solid #9966CC;
+    margin: 0;
+    padding: 20px;
+}
+form span {
+    /*padding: 20px;*/
+}
+form button.go{
+    background: #000000;
+    color: #fbfbfb;
+    display: block;
+    padding: 10px 20px;
+}
+
+form button.go:hover{
+    color: #fbfbfb;
+}
+
+video {
+    /*height: 100%;*/
+    width: 100%;
+    height: 100%;
+}
+
+.adno-show{display: none;}
+
+.box {
+    background: #3d3d3d;
+    color: #fbfbfb;
+    overflow: auto;
+    width: 100%;
+    max-height: 365px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid #9966CC;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#9966CC;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #059419;
+}
+
+.adnotation {
+    margin: 0 50px;
+    text-align: justify;
+}
+
+.adnotation h4{
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.adnotation p{
+    color: #a3a3a3;
+}
+
+h3+h6+p{
+    padding: 20px 0;
+}
+
+.separator{
+    margin: 0 10px;
+}
+
+#add-adnotation {
+    background: #9966CC;
+    padding: 20px 30px;
+    border:0;
+    color: #fbfbfb;
+    font-size:24px;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+
+
+ul li img {width: 500px;
+    height: 500px;}
+
+footer p {
+    color:#000000;
+    border-top: 1px solid #9966CC;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width: 720px) {
+   header {
+       text-align: center;
+   }
+    nav {float: none;}
+
+    .adno{display:none;}
+    .adno-show{display: block;}
+}
