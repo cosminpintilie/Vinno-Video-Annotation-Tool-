@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
     background: #CCFFFF;
     color: #6600CC;
@@ -15,7 +15,7 @@ nav a {
     margin: 10px;
     display: inline-block;
     color: #ccc;
-    font-family: 'Lobster', serif;
+    font-family: 'Lato', serif;
     font-size: 18px;
 }
 
