@@ -17,10 +17,13 @@ nav a {
 
 nav a:active, nav a:visited, nav a:link {
     color: #330033;
+    background-color: #e699ff;
 }
 
 nav a:hover {
     text-decoration: none;
+    color: green;
+    background-color: #111
 }
 
 nav a:last-child {
